@@ -1,17 +1,23 @@
-theme: jekyll-theme-minima
-author:
-  name: "Jack"
-  #avatar: "/assets/images/bio-photo.jpg"
-  bio: "Welcome to my site." 
-  location: "Somewhere"
-  links:
-    - label: "Small's World"
-      icon: "fas fa-fw fa-link" # See FontAwesome for icons
-      url: "https://smalls.world"
-    - label: "eBird"
-      icon: "fas fa-crow"
-      url: "https://ebird.org/profile/MTYyMTc3Mg"
-    - label: "Chess"
-      icon: "fas fa-chess"
-      url: "https://www.chess.com/member/birdhouse22"
-  
+collections:
+  authors:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
