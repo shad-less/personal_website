@@ -9,7 +9,7 @@ permalink: /blog/
 Hello, welcome to the blog. 
 
 <ul>
-  {% for post in site._posts %}
+  {% for post in /_posts %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
