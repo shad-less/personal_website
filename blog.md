@@ -6,7 +6,7 @@ permalink: /blog/
 
 ---
 
-
+Hello, welcome to the blog. 
 
 <ul>
   {% for post in site._posts %}
