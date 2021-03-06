@@ -8,7 +8,7 @@ We'll see where it goes, maybe I end up in a year letting my domain expire, mayb
 
 ## First Steps
 I'd heard about using Jekyll and GithubPages to start a simple website, so I logged on to Github and made a new repository. From here, it was super simple to pick a theme
-and publish the site. The site will be hosted on *username*.github.io, which is clean enough, and the pre-set theme options are pretty sleek. <\br> While *username*.github.io
+and publish the site. The site will be hosted on *username*.github.io, which is clean enough, and the pre-set theme options are pretty sleek. <br> While *username*.github.io
 wasn't the worst domain name for my new website, I found it a bit boring. For most accounts I've set up in my life, I've left the naming decision to one of a few schemes:
 1. Looking around the room and picking the first object I see
 1. Using some combination of first and last initials or name
@@ -28,7 +28,7 @@ on setting up a GoDaddy domain with Github pages. This filled in all the gaps I 
 ### The Site
 In my first iteration, I just used the built in themes and it was nice enough. But in this manner, almost all of the site structure was hidden, and was just handled by the
 Github-Jekyll build process (technically incorrect I'm sure). I knew it was possible to edit things by adding my own files to the repository (technically overriding the theme files),
-but it was hard to tell what my options were and what changes would get me what I want. So I scrapped it all and started from scratch. <\br>
+but it was hard to tell what my options were and what changes would get me what I want. So I scrapped it all and started from scratch. <br>
 I started with installing Ruby, Jekyll and a few other key programs, following along with the [Jekyll installation guide](https://jekyllrb.com/docs/installation/windows/). 
 Next, I followed along each step of the [Jekyll tutorial](https://jekyllrb.com/docs/step-by-step/01-setup/) and built out a basic website. This felt really helpful,
 as I got two valuable things out of it: 1) A site with the navigation bar at the top 2) An understanding of how the themes, configs, defaults, posts, etc. all work together to
